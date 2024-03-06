@@ -1,0 +1,50 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["On", "est", "en", "quelle", "annee"],
+    "bot_response": "On est en 2024",
+    "required_words": ["quelle", "annee"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["décris", "moi", "le", "systeme", "lmd"],
+    "bot_response": "Le système LMD (Licence-Master-Doctorat) est un système d'enseignement supérieur organisé en trois niveaux : licence (3 ans), master (2 ans) et doctorat (3 ans). Il permet une progression graduelle des études, avec des crédits ECTS attribués à chaque cours. Ce système favorise la mobilité des étudiants et la reconnaissance internationale des diplômes.",
+    "required_words": ["decris", "lmd"]
+  }
+]
